@@ -1,0 +1,43 @@
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .upload-form input,
+  .upload-form button {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ced4da;
+    border-radius: 12px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .upload-form input[type="number"] {
+    max-width: 100px;
+  }
+  
+  .upload-form button {
+    background: #080b0f;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .upload-form button:hover {
+    background: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .upload-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
